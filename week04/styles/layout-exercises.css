@@ -34,8 +34,12 @@ div {
 }
 
 .container2 {
-    /* write declarations here */
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .two {
@@ -44,13 +48,21 @@ div {
 }
 
 .container3 {
-    /* write declarations here */
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .columns-3 {
-    /* write declaration here */
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .three {
