@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>basic html quiz</h1>
+        <form action="">
+            <div class="quiz-item">
+                <label for="q1">1 "what the president of LDS church?"
+                    <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item">
+                <label for="q2">2 "what the fist temple of the church?"
+                    <input type="text" id="q2" name="q2">
+            </div>
+            <div class="quiz-item">
+                <label for="q3">3 "which angel appeared to Joseph Smith?"
+                    <input type="text" id="q3" name="q3">
+                    <select id="q3" name="q3">
+                        <option value=""> selected disabled choose on...</option>
+                        <option value="a">A. angel Gabriel </option>
+                        <option value="b"> B. Nephi </option>
+                        <option value="c"> C. Angel moroni</option>
+
+                    </select>
+            </div>
+            <div class="quiz-item">
+                <label for="q4">4. what is the bottom margin given this declaration?</label>
+                <code>margin: 10px 5px 15px;</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+<html>
