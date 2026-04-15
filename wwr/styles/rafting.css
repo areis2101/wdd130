@@ -24,6 +24,7 @@
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
+    background-color: var(--light-gray);
 }
 
 header,
@@ -36,7 +37,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 p,
@@ -61,7 +62,7 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--dark-transparent);
     color: var(--white);
 }
 
@@ -110,7 +111,6 @@ header {
     align-items: center;
     background-color: var(--secondary-color);
     color: var(--white);
-
 }
 
 header nav ul {
@@ -125,7 +125,7 @@ header nav a {
     display: block;
     background-color: var(--secondary-color);
     color: var(--white);
-    border: 1px solid;
+    border: 1px solid var(--white);
     text-decoration: none;
     padding: 5px 15px;
     font-size: 20px;
@@ -170,6 +170,7 @@ section {
 .adventure-title {
     text-align: center;
     margin-bottom: 20px;
+    color: var(--accent1-color);
 }
 
 .adventure-content {
@@ -193,7 +194,7 @@ section {
 
 .adventure-content img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px var(--dark-transparent);
 }
 
 .adventure-content figcaption {
@@ -246,15 +247,15 @@ h2 {
 .cta {
     text-align: center;
     padding: 40px 20px;
-    background-color: #0077cc;
-    color: white;
+    background-color: var(--button-color);
+    color: var(--white);
 }
 
 .cta .btn {
     display: inline-block;
     margin-top: 15px;
-    background-color: white;
-    color: #0077cc;
+    background-color: var(--white);
+    color: var(--button-color);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -269,11 +270,11 @@ h2 {
 }
 
 .trip {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 10px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--dark-transparent);
 }
 
 .trip img {
@@ -283,6 +284,7 @@ h2 {
 
 .trip h2 {
     margin: 10px 0;
+    color: var(--accent2-color);
 }
 
 .trip-table {
@@ -301,16 +303,16 @@ h2 {
 
 .trip-table th,
 .trip-table td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--secondary-color);
     padding: 10px;
     text-align: center;
 }
 
 .trip-table th {
-    background-color: #004e89;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--white);
 }
 
 .trip-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: var(--light-gray);
 }
