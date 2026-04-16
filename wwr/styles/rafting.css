@@ -131,6 +131,10 @@ header nav a {
     font-size: 20px;
 }
 
+a:hover {
+    background-color: rgb(131, 130, 130);
+}
+
 header img {
     background-color: var(--secondary-color);
     padding: 10px;
